@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Zakat Totalizer</string>
+    <string name="hint_gold_weight">Enter gold weight (grams)</string>
+    <string name="hint_gold_value">Enter gold value per gram (RM)</string>
+    <string name="hint_zakat_payable">Zakat Payable: RM</string>
+    <string name="hint_total_zakat">Total Zakat: RM</string>
+    <string name="keep">Keep</string>
+    <string name="wear">Wear</string>
+    <string name="calculate_button">Calculate Zakat</string>
+    <string name="about_title">About</string>
+    <string name="about_text">Developed by Your Name\n© 2024</string>
+    <string name="github_url">https://github.com/yourusername/zakat-totalizer</string>
+</resources>

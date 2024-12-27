@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Theme.ZakatTotalizer" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:colorPrimary">#0A0908</item>
+        <item name="android:colorPrimaryDark">#0A0908</item>
+        <item name="android:colorAccent">#22333B</item>
+        <item name="android:windowBackground">#EAE0D5</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#FFFFFF</item>
+        <item name="android:textColorHint">#FFFFFF</item>
+
+        <!-- Set grey color for focus state -->
+        <item name="android:colorControlActivated">#808080</item> <!-- Focus state -->
+        <item name="android:colorControlNormal">#D3D3D3</item> <!-- Normal state -->
+
+        <item name="android:buttonStyle">@style/Widget.ZakatTotalizer.Button</item>
+
+        <!-- Added this line to change menu item text color to black -->
+        <item name="android:actionMenuTextColor">#000000</item> <!-- Black text for menu items -->
+    </style>
+
+    <!-- Custom Popup Theme -->
+    <style name="CustomPopupTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColor">#000000</item> <!-- Black text -->
+        <item name="android:background">#FFFFFF</item> <!-- White background -->
+    </style>
+
+    <!-- Custom Button Style -->
+    <style name="Widget.ZakatTotalizer.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">#6E854A</item> <!-- Set button background to grayish-green -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Button text color white -->
+        <item name="android:focusable">true</item> <!-- Ensure button is focusable -->
+        <item name="android:focusableInTouchMode">true</item> <!-- Ensure button works in touch mode -->
+    </style>
+
+</resources>
